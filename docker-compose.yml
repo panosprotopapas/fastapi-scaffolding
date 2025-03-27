@@ -1,0 +1,16 @@
+services:
+
+  example-client:
+    restart: "unless-stopped"
+    hostname: example
+    build: .
+    ports:
+      - 5000:5000
+    env_file:
+      - .env
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      start_period: 10s
+      interval: 30s
+      retries: 3
+

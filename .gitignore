@@ -1,0 +1,7 @@
+*.log
+**/venv/
+**/.venv/
+test*
+keystore*
+db.json
+example.json

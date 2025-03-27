@@ -1,0 +1,22 @@
+[project]
+name = "json-diff"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "panosprotopapas84@gmail.com",email = "panosprotopapas84@gmail.com"}
+]
+readme = "README.md"
+requires-python = "<4.0,>=3.11"
+dependencies = [
+    "tinydb (>=4.8.2,<5.0.0)",
+    "fastapi (>=0.115.11,<0.116.0)",
+    "uvicorn (>=0.34.0,<0.35.0)",
+    "requests (>=2.32.3,<3.0.0)",
+    "python-dotenv (>=1.0.1,<2.0.0)",
+    "deepdiff (>=8.4.2,<9.0.0)",
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
