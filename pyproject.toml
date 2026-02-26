@@ -6,7 +6,7 @@ authors = [
     {name = "panosprotopapas84@gmail.com",email = "panosprotopapas84@gmail.com"}
 ]
 readme = "README.md"
-requires-python = "<4.0,>=3.11"
+requires-python = "<4.0,>=3.12"
 dependencies = [
     "tinydb (>=4.8.2,<5.0.0)",
     "fastapi (>=0.115.11,<0.116.0)",
